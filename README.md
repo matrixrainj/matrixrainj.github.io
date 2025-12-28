@@ -7,6 +7,8 @@
 
 An interactive falling green code effect inspired by The Matrix movie. Features smooth animations, extensive customization options, and persistent state management.
 
+🔗 **Repository:** [https://github.com/matrixrainj/matrixrainj.github.io](https://github.com/matrixrainj/matrixrainj.github.io)
+
 🌐 **Live Demo:** [https://matrixrainj.github.io](https://matrixrainj.github.io)
 
 ---
