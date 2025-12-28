@@ -5,8 +5,8 @@ authors:
   given-names: "Yuliya"
   orcid: "https://orcid.org/0009-0000-6151-7415"
 title: "Matrix Rain"
-version: 1.0
-doi: 10.5281/zenodo.18077153
+version: 2.0
+doi: 10.5281/zenodo.18077841
 date-released: 2025-12-28
 url: "https://github.com/matrixrainj/matrixrainj.github.io"
 license: MIT
