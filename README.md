@@ -15,7 +15,7 @@ An interactive falling green code effect inspired by The Matrix movie. Features 
 
 ## 📸 Preview
 
-![Matrix Rain Preview](https://raw.githubusercontent.com/matrixrainj/matrixrainj.github.io/main/preview.png)
+![Matrix Rain Preview](preview.png)
 
 ---
 
