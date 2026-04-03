@@ -1,154 +1,83 @@
 # Matrix Rain
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+**Free your mind and watch the code rain fall.**
 
-An interactive falling green code effect inspired by The Matrix movie. Features smooth animations, extensive customization options, and persistent state management.
+A mesmerizing interactive Matrix digital rain simulation inspired by the iconic Matrix trilogy. Built with pure HTML, CSS, and JavaScript — no dependencies required.
 
-🔗 **Repository:** [https://github.com/matrixrainj/matrixrainj.github.io](https://github.com/matrixrainj/matrixrainj.github.io)
+**[▶ Live Demo](https://matrixrainj.github.io)**
 
-🌐 **Live Demo:** [https://matrixrainj.github.io](https://matrixrainj.github.io)
+## Features
 
----
+### 🟢 Visual Effects
+- Smooth cascading character rain at 120 FPS
+- Dynamic glow effects on leading characters
+- Adjustable trail length for fade control
+- Rainbow mode with multi-color shifting streams
+- Sub-pixel smooth animation
 
-## 📸 Preview
+### 🎨 Customization
+- **Color Themes** — Classic Green, Cyan, Magenta, Yellow, Orange, Red, and custom color picker
+- **Character Sets** — Katakana, Binary, Hexadecimal, Kanji, Symbols, and Custom Messages
+- **Rain Speed** — Adjustable from slow drift to rapid downpour
+- **Column Density** — Control the number of rain columns
+- **Font Size** — Scale characters from 10px to 30px
+- **Trail Length** — 5 levels from long ghostly trails to sharp short fades
 
-![Matrix Rain Preview](preview.png)
+### ⚙️ Controls
+- Real-time settings panel with glassmorphism UI
+- Pause / Resume animation
+- Screenshot capture as PNG
+- Reset to default settings
+- Settings persist via LocalStorage
 
----
-
-## ✨ Features
-
-### Visual Effects
-| Feature | Description |
-|---------|-------------|
-| 🌧️ Authentic Matrix Rain | Falling characters with realistic trailing effect |
-| 💡 Glow Effects | Neon-like glow on leading characters |
-| 🌈 Rainbow Mode | Colorful animated rainbow effect |
-| 🎨 Color Themes | Green, Cyan, Magenta, Yellow, Orange, Red + custom colors |
-
-### Customization Options
-- ⚡ **Rain Speed** - Control falling velocity
-- 📊 **Column Density** - Adjust column spacing
-- 🔤 **Font Size** - Change character size (10-30px)
-- 🌫️ **Trail Length** - Control fade effect intensity
-
-### Character Sets
-| Set | Characters |
-|-----|------------|
-| Matrix | Katakana + Numbers |
-| Binary | 0 & 1 |
-| Hexadecimal | 0-9, A-F |
-| Kanji | Japanese Kanji characters |
-| Symbols | Glyphs & special symbols |
-| Custom | Your own message |
-
-### Persistence
-- 💾 Auto-save to localStorage
-- 🔄 Settings persist across sessions
-- ↺ Reset to defaults option
-
----
-
-## ⌨️ Keyboard Shortcuts
-
+### ⌨️ Keyboard Shortcuts
 | Key | Action |
-|-----|--------|
+|-------|----------------|
 | `Space` | Pause / Resume |
 | `H` | Toggle control panel |
 
----
+## Getting Started
 
-## 🚀 Quick Start
+### Run Locally
 
-### Option 1: Visit Live Demo
-Simply go to [https://matrixrainj.github.io](https://matrixrainj.github.io)
+1. Clone the repository:
 
-### Option 2: Run Locally
 ```bash
-# Clone the repository
 git clone https://github.com/matrixrainj/matrixrainj.github.io.git
-
-# Navigate to directory
-cd matrixrainj.github.io
-
-# Open in browser
-open index.html
 ```
 
-### Option 3: Download
-1. Download the repository as ZIP
-2. Extract files
-3. Open `index.html` in any modern browser
+2. Open `index.html` in your browser.
 
----
+No build tools, no dependencies, no setup required.
 
-## 🛠️ Technologies
+### Deploy
 
-- **HTML5** - Canvas API for rendering
-- **CSS3** - Animations, gradients, glassmorphism
-- **Vanilla JavaScript** - ES6+ classes, requestAnimationFrame
-- **localStorage** - State persistence
+This project works as a static site. Deploy it to any static hosting:
 
----
+- **GitHub Pages** — Push to `main` branch and enable Pages
+- **Netlify / Vercel** — Connect the repository and deploy
+- **Any web server** — Just serve the `index.html` file
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 matrixrainj.github.io/
-├── index.html      # Main application (single file)
-├── README.md       # Documentation
-├── preview.png     # Preview image
-└── LICENSE         # MIT License
+├── index.html      # Complete application (HTML + CSS + JS)
+├── favicon.ico     # Site icon
+├── LICENSE         # MIT License
+└── README.md       # Documentation
 ```
 
----
+## Technical Details
 
-## 📊 Performance
+- **Rendering** — HTML5 Canvas with `alpha: false` optimization
+- **Animation** — Fixed timestep at 120 FPS with accumulator-based physics
+- **Movement** — Sub-pixel positioning for buttery smooth scrolling
+- **Persistence** — All settings saved to LocalStorage automatically
+- **Responsive** — Adapts to any screen size, mobile and desktop
+- **Performance** — Delta time capping to prevent spiral of death
+- **Zero Dependencies** — Pure vanilla HTML, CSS, and JavaScript
 
-| Metric | Value |
-|--------|-------|
-| Target FPS | 60 |
-| File Size | ~15KB |
-| Dependencies | None |
-| Browser Support | All modern browsers |
+## License
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) file for details.
-
----
-
-## 👤 Author
-
-**Yuliya Kolesnikova**
-
-- GitHub: [@matrixrainj](https://github.com/matrixrainj)
-
----
-
-## ⭐ Show Your Support
-
-Give a ⭐ if you like this project!
-
----
-
-<p align="center">
-  Made with 💚 inspired by The Matrix
-</p>
+MIT
